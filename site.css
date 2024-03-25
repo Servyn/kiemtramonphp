@@ -1,0 +1,121 @@
+/* site.css */
+
+/* Thiết lập font chữ và màu nền cho trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Thiết lập kiểu cho tiêu đề */
+h1 {
+    color: #333;
+}
+
+/* Thiết lập kiểu cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Thiết lập kiểu cho header của bảng */
+table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Thiết lập kiểu cho các ô dữ liệu trong bảng */
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Kiểu cho các ô chẵn trong bảng */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Kiểu cho các ô lẻ trong bảng */
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a:hover {
+    background-color: #f4f4f4;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CSS cho container của form */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS cho tiêu đề */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS cho label */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* CSS cho input */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* CSS cho nút đăng nhập */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover state cho nút đăng nhập */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
